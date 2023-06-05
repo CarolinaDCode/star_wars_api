@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { MdOutlineArrowForwardIos } from 'react-icons/md';
 import { TraitsPeople } from './TraitsPeople';
+import '../index.css';
 import '../style/PeopleItem.css';
 
 export function PeopleItem(people) {
