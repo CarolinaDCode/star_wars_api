@@ -1,2 +1,12 @@
 /* @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&family=Poppins:wght@200;300;400;600;800&display=swap'); */
 *{font-family:Arial, Helvetica, sans-serif}
+
+@media only screen and (min-width: 640px)  {
+    .container-people-item {
+      width: 30%;
+      border-right: 1px solid rgba(0, 0, 0, 0.1);;
+    }
+    /* .div2 {
+       width: 70%;
+    } */
+}
