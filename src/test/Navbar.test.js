@@ -1,8 +1,10 @@
+import React from 'react';
 import { render, screen } from '@testing-library/react';
 import Navbar from '../components/Navbar';
 
 describe('Navbar Component', () =>{
-    test('Titulo se encuentra en el documento', ()=>{
-        render(<Navbar/>)
+    test('Debe de retornar un string', ()=>{
+        const result = Navbar('People');
+        expect(typeof(result)).toBe('string');
     })
 })
