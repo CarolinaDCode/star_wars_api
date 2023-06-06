@@ -1,0 +1,21 @@
+.item-subtitle-traits{
+    color: #828282;
+}
+
+.item-traits-position{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.space-subtitle{
+    margin-bottom: 1.5rem;
+}
+
+.btn-back{
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}

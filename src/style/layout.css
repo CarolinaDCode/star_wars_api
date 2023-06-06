@@ -1,0 +1,12 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 0.5 rem;
+}
+
+.space-loader{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}

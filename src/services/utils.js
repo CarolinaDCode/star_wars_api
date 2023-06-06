@@ -15,3 +15,13 @@ export async function getAllPeople() {
     console.error(error);
   }
 }
+
+export async function getPerson(id){
+  try {
+    const response = await fetch(`${API_URL}${id}`);
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error(error);
+  }
+}
