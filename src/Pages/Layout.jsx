@@ -5,7 +5,7 @@ import { TraitsPeople } from '../components/TraitsPeople';
 import { Navbar} from '../components/Navbar';
 import { Outlet } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
-import '../style/Loader.css'
+import '../style/loader.css'
 import '../style/layout.css'
 
 export function Layout() {
