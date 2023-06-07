@@ -1,1 +1,1 @@
-# star_wars_api
+# SWAPI - The Star Wars API
